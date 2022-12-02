@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@200&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+}
+::-webkit-scrollbar {
+    width: 0px;
+  
+  }
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url(assets/banner2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+transition:2s ease;
+background-attachment: fixed;
+}
+#socialmediabar{
+    background-color:lightgrey;
+    width:100%;
+    padding:10px;
+    box-shadow: 3px 3px 10px 1px black;
+    display:flex;
+   
+}
+#header1{
+    position: fixed;
+    width:100%;
+}
+#header2{
+    position: fixed;
+    width:100%;
+    display:none;
+}
+
+.fa{
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.fa:hover{
+    color:orangered;
+}
+
+#navbar{
+    background-image:linear-gradient(#FF8008,#FFC837);
+    width:100%;
+    padding:10px;
+    box-shadow: 3px 10px 20px 1px rgba(0,0,0,0.2);
+    
+}
+#logo{
+    background: none;
+    width:100px;
+    margin-left: 2%;
+}
+#maincontainer{
+    position:absolute;
+    top:100%;
+    background:white;
+    width:100%;
+    margin:0;
+    z-index:-1;
+}
+#title{
+    color:#202020;
+    
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+#titlecont{
+  position:absolute;
+top:20%;
+left:10%;
+background:lightgrey;
+padding:30px;
+box-shadow: 3px 10px 20px 1px #202020;
+}
+#getstarted{
+    background:none;
+    border:1px solid #202020;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#202020;
+    transition:2s ease;
+    font-weight: bold;
+    text-decoration: none;
+}
+#knowabout{
+    background:none;
+    border:1px solid black;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-decoration: none;
+    transition:2s ease;
+    font-weight: bold;
+    color:black;
+}
+.viewbrands{
+    background:none;
+    border:1px solid white;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+   color:white;
+   text-decoration: none;
+    transition:2s ease;
+    font-weight: bold;
+}
+.viewbrands:hover{
+   
+   color:white;
+   text-decoration: none;
+   
+}
+#getstarted:hover{
+    background-image:linear-gradient(#FF8008,#FFC837);
+    border:none;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    box-shadow:0 0 20px 1px #202020;
+}
+
+
+.navigationbtn:hover{
+    color:orangered;
+
+    
+}
+
+
+.brand{
+    background:#202020;
+    padding:60px;
+    COLOR:WHITE;
+}
+.brandlogos{
+    width:100%;
+}
+#footer{
+    background:#303030;
+    color:white;
+}
+.addtocart{
+    background:none;
+    border:1px solid black;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+   
+    transition:2s ease;
+    font-weight: bold;
+}
+
+.navigationbtn {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 30rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .catalogues{
+    text-decoration: none;
+  }
+  .navigationbtn:hover .dropdown-content {
+    display: block;
+  }
+
+@media(1500px<= width <= 4000px) {
+    #title{
+        font-size:9rem;
+    }
+    #subtitle{
+        font-size:2rem;
+    }
+#titlecont{
+    width:30%;
+}
+.conthead{
+    font-size:4rem;
+    margin-left:15%;
+}
+.iconcont{
+    position:relative;
+    left: 85%;
+}
+#navigation{
+    position:relative;
+    left: 50%;
+}
+.brandname{
+    font-size:9rem;
+    margin-left:15%;
+}
+#aboutdata{
+    font-size:2rem;
+}
+.branddata{
+    font-size:2.5rem;
+
+}
+#topbannerbg{
+    background:#202020;
+    transform:skew(-30deg);
+    height:100%;
+    width:40%;
+    position: relative;
+    left:-15%;
+}
+#subtopbannerbg{
+    background-image:linear-gradient(#FF8008,#FFC837);
+    transform:skew(-0deg);
+    height:100%;
+    width:80%;
+    position: relative;
+    left:-15%;
+    box-shadow: -5px 20px 20px 1px #202020;
+}
+#aboutdata{
+    background:white;
+    padding:60px;
+    position:relative;
+    left:30%;
+    margin-top:20%;
+}
+.navigationbtn{
+    color:white;
+    padding-right:20px;
+    padding-left:20px;
+    font-weight: BOLD;
+transition:1s ease;
+cursor: pointer;
+}
+.latestproducts{
+    font-size:3rem;
+}
+.card-title{
+    font-size:2rem;
+}
+}
+
+@media(1200px<= width <= 1500px) {
+    #title{
+        font-size:6rem;
+    }
+    #subtitle{
+        font-size:1.5rem;
+    }
+#titlecont{
+    width:30%;
+}
+.conthead{
+    font-size:4rem;
+    margin-left:15%;
+}
+.iconcont{
+    position:relative;
+    left: 85%;
+}
+#navigation{
+    position:relative;
+    left: 50%;
+}
+.brandname{
+    font-size:9rem;
+    margin-left:15%;
+}
+#aboutdata{
+    font-size:1.5rem;
+}
+.branddata{
+    font-size:2rem;
+
+}
+#topbannerbg{
+    background:#202020;
+    transform:skew(-30deg);
+    height:100%;
+    width:40%;
+    position: relative;
+    left:-15%;
+}
+#subtopbannerbg{
+    background-image:linear-gradient(#FF8008,#FFC837);
+    transform:skew(-4deg);
+    height:100%;
+    width:80%;
+    position: relative;
+    left:-15%;
+    box-shadow: -5px 20px 20px 1px #202020;
+}
+#aboutdata{
+    background:white;
+    padding:60px;
+    position:relative;
+    left:30%;
+    margin-top:20%;
+}
+.navigationbtn{
+    color:white;
+    padding-right:10px;
+    padding-left:10px;
+    font-weight: BOLD;
+transition:1s ease;
+cursor: pointer;
+font-size:1.2rem;
+}
+.latestproducts{
+    font-size:2.5rem;
+}
+
+}
+
+
+@media(1000px<= width <= 1200px) {
+    #title{
+        font-size:6rem;
+    }
+    #subtitle{
+        font-size:1.5rem;
+    }
+#titlecont{
+    width:30%;
+}
+.conthead{
+    font-size:4rem;
+    margin-left:5%;
+}
+.iconcont{
+    position:relative;
+    left: 80%;
+}
+#navigation{
+    position:relative;
+    left: 40%;
+}
+.brandname{
+    font-size:5rem;
+    margin-left:15%;
+}
+#topbannerbg{
+    background:#202020;
+    transform:skew(-30deg);
+    height:100%;
+    width:40%;
+    position: relative;
+    left:-15%;
+}
+#subtopbannerbg{
+    background-image:linear-gradient(#FF8008,#FFC837);
+    transform:skew(-0deg);
+    height:100%;
+    width:80%;
+    position: relative;
+    left:-25%;
+    box-shadow: -5px 20px 20px 1px #202020;
+}
+
+#aboutdata{
+    background:white;
+    padding:60px;
+    position:relative;
+    left:30%;
+    margin-top:20%;
+}
+.navigationbtn{
+    color:white;
+    padding-right:10px;
+    padding-left:10px;
+    font-weight: BOLD;
+transition:1s ease;
+cursor: pointer;
+font-size:1.2rem;
+}
+.latestproducts{
+    font-size:2rem;
+}
+}
+@media(768px<= width <= 1000px) {
+    #title{
+        font-size:5rem;
+    }
+    #subtitle{
+        font-size:1.4rem;
+    }
+#titlecont{
+    width:40%;
+}
+.conthead{
+    font-size:3rem;
+    margin-left:5%;
+}
+.iconcont{
+    position:relative;
+    left: 75%;
+}
+#navigation{
+    position:relative;
+    left: 75%;
+}
+.brandname{
+    font-size:4rem;
+    margin-left:15%;
+}
+#topbannerbg{
+    background:#202020;
+    transform:skew(-30deg);
+    height:100%;
+    width:40%;
+    position: relative;
+    left:-15%;
+}
+#subtopbannerbg{
+    background-image:linear-gradient(#FF8008,#FFC837);
+    transform:skew(-0deg);
+    height:100%;
+    width:100%;
+    position: relative;
+    left:-55%;
+    box-shadow: -5px 20px 20px 1px #202020;
+}
+#topbannerbg{
+    background:#202020;
+    transform:skew(-30deg);
+    height:100%;
+    width:40%;
+    position: relative;
+    left:-15%;
+}
+#subtopbannerbg{
+    background-image:linear-gradient(#FF8008,#FFC837);
+    transform:skew(-0deg);
+    height:100%;
+    width:100%;
+    position: relative;
+    left:-40%;
+    box-shadow: -5px 20px 20px 1px #202020;
+}
+#aboutdata{
+    background:white;
+    padding:60px;
+    position:relative;
+    left:10%;
+    margin-top:20%;
+}
+#header1{
+    display: none;
+}
+#header2{
+    display: block;
+}
+.latestproducts{
+    font-size:2rem;
+}
+}
+@media(0px<= width <= 768px) {
+    #title{
+        font-size:4rem;
+    }
+    #subtitle{
+        font-size:1.6rem;
+    }
+#titlecont{
+    width:60%;
+}
+#getstarted{
+ 
+    font-size:1.2rem;
+}
+.conthead{
+    margin-left:15%;
+
+    font-size:3rem;
+}
+.iconcont{
+    position:relative;
+    left: 70%;
+}
+#navigation{
+    position:relative;
+    left: 70%;
+}
+.brandname{
+    font-size:3rem;
+    margin-left:15%;
+}
+#topbannerbg{
+    background:#202020;
+    transform:skew(-30deg);
+    height:100%;
+    width:40%;
+    position: relative;
+    left:-15%;
+}
+#subtopbannerbg{
+    background-image:linear-gradient(#FF8008,#FFC837);
+    transform:skew(-0deg);
+    height:100%;
+    width:150%;
+    position: relative;
+    left:-100%;
+    box-shadow: -5px 20px 20px 1px #202020;
+}
+#aboutdata{
+    background:white;
+    padding:60px;
+    position:relative;
+    
+    margin-top:20%;
+}
+#header1{
+    display: none;
+}
+#header2{
+    display: block;
+}
+.latestproducts{
+    font-size:1.5rem;
+}
+}

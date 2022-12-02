@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@200&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    font-weight: bold;
+}
+body{
+    background:#f5f5f5;
+}
+#sidebar{
+    background:#161d30;
+    padding:30px;
+    width:30%;
+    height:100%;
+    
+}
+#main{
+    width:70%;
+    position:absolute;
+    top:0;
+    left:30%;
+}
+.meter{
+ 
+  
+    padding:30px;
+}
+#upload{
+    color:white;
+}
+@media(1500px<= width <= 4000px) {
+.readings{
+    font-size:6rem;
+}
+#upload{
+    font-size:6rem;
+}
+}
+
+@media(1200px<= width <= 1500px) {
+    .readings{
+        font-size:6rem;
+    }
+    #upload{
+        font-size:6rem;
+    }
+}
+
+
+@media(1000px<= width <= 1200px) {
+    .readings{
+        font-size:5rem;
+    }
+    #upload{
+        font-size:5rem;
+    }
+}
+@media(768px<= width <= 1000px) {
+    .readings{
+        font-size:3rem;
+    } 
+    #upload{
+        font-size:3rem;
+    }
+}
+@media(0px<= width <= 768px) {
+    .readings{
+        font-size:6rem;
+    }
+    #upload{
+        font-size:2rem;
+    }
+}
